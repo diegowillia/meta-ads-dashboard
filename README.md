@@ -1,24 +1,24 @@
 # meta-ads-dashboard
 
-> an automated workflow to extract daily account balances from meta ads, delivering reports directly to whatsApp.
+> an automated workflow to extract daily account balances from meta ads, delivering reports directly to whatsapp.
 
-## Features
+## features
 
-* **Automated Daily Extraction:** connects to the facebook graph API to pull up-to-date daily spend and account balance data.
-* **WhatsApp Integration:** delivers the daily report directly to your phone or a specific whatsApp group via Waha.
-* **Self-Hosted Infrastructure:** runs completely on a self-hosted Ubuntu VPS environment, keeping data processing under your control.
-* **Low-Code Maintenance:** built entirely within n8n, allowing for easy visual adjustments to the workflow.
+* **automated daily extraction:** connects to the facebook graph api to pull up-to-date daily spend and account balance data.
+* **whatsapp integration:** delivers the daily report directly to your phone or a specific whatsapp group via waha.
+* **self-hosted infrastructure:** runs completely on a self-hosted ubuntu vps environment, keeping data processing under your control.
+* **low-code maintenance:** built entirely within n8n, allowing for easy visual adjustments to the workflow.
 
-* ## Tech Stack
+## tech stack
 
-* **Automation Platform:** [n8n](https://n8n.io/)
-* **Data Source:** Facebook Graph API (Meta Ads)
-* **Messaging API:** [Waha](https://waha.devlike.pro/) (WhatsApp HTTP API)
-* **Hosting / OS:** Ubuntu VPS
+* **automation platform:** [n8n](https://n8n.io/)
+* **data source:** facebook graph api (meta ads)
+* **messaging api:** [waha](https://waha.devlike.pro/) (whatsapp http api)
+* **hosting / os:** ubuntu vps
 
-## Prerequisites
+## prerequisites
 
-* an **Ubuntu VPS** with **n8n** and **Waha** installed and running.
-* a meta developer account with an app configured to generate a graph API `ACCESS_TOKEN`.
-* your meta ad account ID 
-* an active whatsApp session connected via Waha.
+* an **ubuntu vps** with **n8n** and **waha** installed and running.
+* a meta developer account with an app configured to generate a graph api `access_token`.
+* your meta ad account id 
+* an active whatsapp session connected via waha.
